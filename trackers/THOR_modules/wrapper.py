@@ -11,7 +11,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import cv2
-from scipy.signal import tukey
+from scipy.signal.windows import tukey
 
 from .utils import *
 from .modules import ST_Module, LT_Module, Dummy_Module
